@@ -5,19 +5,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Smooth Smoothies | IBAT Web Design Portfolio Project | Mary Smith</title>
-
-	<meta name="description" content="Dublin's finest smoothie store. Offering tasty alternatives to sugary and unhealthy snacks for busy, on-the-go, on-trend professionals.">
+	<title>Contact | Mary Smith Web Designer</title>
+	<meta name="description" content="Helping businesses of every size and type get the most from digital platforms.">
 
 	<meta name="author" content="Mary Smith">
 
-	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="../assets/css/global-3.css" rel="stylesheet">
 
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
-	
-	<!-- Link to icons for Font Awesome 5 -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i&display=swap" rel="stylesheet">  
+
+    <!-- Link to icons for Font Awesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
 	<!-- Styles for Cookie Consent Popup Message  -->
 	<link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
@@ -31,45 +30,36 @@
 		gtag('config', 'UA-122243940-1');
 	</script>
 
+
 </head>
 
 
+<body class="contact-page">
 
-<body>
 
-	<!-- ******************************************************************************************
-	====================================== MENUS TO COPY AND PASTE ================================
-    *********************************************************************************************** -->
-        
-    <!-- Begin desktop menu -->
-    <div class="container-menu-desktop menu-light menu-sticky">
+     <!-- Begin desktop menu -->
+	 <div class="container-menu-desktop menu-transparent menu-sticky">
         <!-- first child item -->
-        <a href="#"><img src="assets/img/smoothies-logo.png" alt="website logo"></a>  
+        <a href="../index-3.html"><img src="../assets/img/website-logo.png" alt="website logo"></a>
         <!-- second child item -->
         <ul>
-            <li><a href="#watermelon">Watermelon</a></li>
-            <li><a href="#apple">Apple</a></li>
-            <li><a href="#blueberry">Blueberry</a></li>
-            <li><a href="#lemon">Lemon</a></li>
-            <li><a href="#signup" class="btn-cta"><i class="fas fa-envelope"></i> Newsletter</a></li>  
-          </ul>
+            <li><a href="../index-3.html">Home</a></li>
+            <li><a href="../portfolio/index-3.html">Portfolio</a></li>
+            <li><a href="../contact/index-3.html" class="btn-cta">Contact &nbsp;<i class="fas fa-arrow-right"></i></a></li>
+        </ul>
     </div>
     <!-- End desktop menu -->
 
 
     <!-- Begin mobile menu bar -->
-    <div class="container-menu-bar-mobile menu-light menu-sticky">
+    <div class="container-menu-bar-mobile menu-transparent menu-sticky">
             <!-- first child -->
-            <a href="index.html"><img src="menus-logo.png" alt="website logo"></a>
+            <a href="../index-3.html"><img src="../assets/img/website-logo.png" alt="website logo"></a>
             <!-- second child -->
-            <div class="flyout-menu flyout-menu-is-closed menu-light">
-                <ul>
-                    <li><a href="#watermelon">Watermelon</a></li>
-                    <li><a href="#apple">Apple</a></li>
-                    <li><a href="#blueberry">Blueberry</a></li>
-                    <li><a href="#lemon">Lemon</a></li>
-                    <li><a href="#signup" class="btn-cta"><i class="fas fa-envelope"></i> Newsletter</a></li>  
-                  </ul>
+            <div class="item-icon">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
             </div>
         </div>
     <!-- End mobile menu bar -->
@@ -77,16 +67,15 @@
     <!-- Begin mobile menu slide-out options -->
     <div class="flyout-menu flyout-menu-is-closed menu-light">
         <ul>
-            <li><a href="#">Option 1</a></li>
-            <li><a href="#">Option 2</a></li>
-            <li><a href="#">Option 3</a></li>
-            <li><a href="#" class="btn-cta"><i class="fas fa-shopping-cart"></i> CTA Button</a></li>
+            <li><a href="../index-3.html">Home</a></li>
+            <li><a href="../portfolio/index-3.html">Portfolio</a></li>
+            <li><a href="../contact/index-3.html" class="btn-cta">Contact &nbsp;<i class="fas fa-arrow-right"></i></a></li>
         </ul>
 
         <hr>
         <h4>About Me</h4>
         <div class="fly-out-profile-box">
-            <img src="face-webdev.jpg">
+            <img src="../assets/img/profile-pic.jpg" alt="Mary Smith, web designer, Dublin">
             <p>Hi, I'm <b>Mary Smith</b>, a web and digital designer based in Dublin, Ireland.</p>
         </div>
    
@@ -110,106 +99,59 @@
         <p>&nbsp;</p>
     </div>
     <!-- End mobile menu slide-out options -->
-
-    
-   <!-- ***************************************************************
-	=========================== MENUS ENDED  ===========================
-    **************************************************************** -->
-
+		
 	<!-- Begin hero block -->
-	<div class="container-hero">
-		<h1>Smooth Smoothies</h1>
-		<h2>Where flavour meets goodness</h2>
+	<div class="container-hero-block contact-page">
+		<div class="slide-in-top">
+			<h1>Mary Smith</h1>
+			<h2>Let's work together</h2>
+		</div>
 	</div>
 	<!-- End hero block -->
+	
 
+    <!-- Begin container for contact form -->
+        
+    <div class="container-contact-form">
+        <h3>Get in touch</h3>
+        <p>Use the form below to let me know a little more about your objectives and I'll get back to you.</p>
+        
+        <!-- Contact form starts here -->
+        <form id="contact-form" name="contact-form" accept-charset="utf-8" method="post" action="https://formspree.io/myname@gmail.com">
 
-	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
-	<div class="container-flexbox">
-		<div class="item-1">
-			<p>Our world-class smoothies are great at any time of the day and offer a tasty alternative to sugary and unhealthy snacks!</p>
-		</div>
-	</div><!-- End parent flexbox container -->
+            <!-- Begin contact form fields -->
 
+            <div class="flex-row">
+                <div class="item-name">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="Your First and Last Name here." required>
+                </div>
+                <div class="item-email">
+                    <label for="email-address">Email</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="Your Email Address here." required>
+                </div>
+            </div>
 
-	<!-- Begin parent flexbox container for two-column layout (.item-2) on desktops and one-column layout on mobiles -->
-	<div class="container-flexbox bg-watermelon" id="watermelon">
+            <div class="flex-row">
+                <div class="item-textarea">
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="message" id="message" placeholder="Your Message here." required></textarea>
+                </div>
 
-		<div class="item-2">
-			<h2>Watermelon Wonder</h2>
-			<p>Watermelon is a delicious and refreshing fruit that's also good for you. It is high in vitamin C, vitamin A and many healthy plant compounds, but contains only 60 calories per smoothie. And because watermelon has a high water content, this smoothie is hydrating and helps you feel full.</p>
-		</div>
+                <div class="item-btn">
+                    <button id="btn-submit" type="submit">Send <i class="fas fa-arrow-circle-right"></i></button> 
+                </div>
+            </div>
 
-		<div class="item-2">
-			<img src="assets/img/watermelon.png" alt="Watermelon Wonder smoothie">
-		</div>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            <!-- End contact form fields -->
 
-	</div><!-- End parent flexbox container -->
-
-
-	<!-- Begin parent flexbox container for two-column layout (.item-2) on desktops and one-column layout on mobiles -->
-	<div class="container-flexbox bg-apple" id="apple">
-
-		<div class="item-2">
-			<img src="assets/img/apple.png" alt="Apple Delight smoothie">
-		</div>
-
-		<div class="item-2">
-			<h2>Apple Delight</h2>
-			<p>Apples are an awesome source of fibre and vitamin C. They also contain polyphenols, which can have numerous health benefits.  Apples have been linked to a lower risk of heart disease because they contain soluble fibre that can help lower blood cholesterol. Studies have also shown that eating apples reduces the risk of type 2 diabetes.</p>
-		</div>
-
-	</div><!-- End parent flexbox container -->
-
-
-	<!-- Begin parent flexbox container for two-column layout (.item-2) on desktops and one-column layout on mobiles -->
-	<div class="container-flexbox bg-blueberry" id="blueberry" >
-
-		<div class="item-2">
-			<h2>Blueberry Surprise</h2>
-			<p>One of our top sellers. Blueberries are so tasty that many people consider them their favourite fruit. In fact, because they are low in calories and incredibly good for you. Blueberries are often labeled a superfood. Blueberries have the highest antioxidant capacity of all the popular fruits and vegetables.</p>
-		</div>
-
-		<div class="item-2">
-			<img src="assets/img/blueberry.png" alt="Blueberry Surprise smoothie">
-		</div>
-
-	</div><!-- End parent flexbox container -->
-
-
-	<!-- Begin parent flexbox container for two-column layout (.item-2) on desktops and one-column layout on mobiles -->
-	<div class="container-flexbox bg-lemon" id="lemon">
-
-		<div class="item-2">
-			<img src="assets/img/lemon.png" alt="Lemon Luxury smoothie">
-		</div>
-
-		<div class="item-2">
-			<h2>Lemon Luxury</h2>
-			<p>Add zest to your day with our delicious Lemon Luxury smoothie. As a citrus fruit, lemons are high in vitamin C, which is a primary antioxidant that helps reduce your risk of cardiovascular disease and lowers blood pressure. Refreshing and energising - that's our Lemony Luxury smoothie!</p>
-		</div>
-
-	</div><!-- End parent flexbox container -->
-
-	<!-- Begin container for email signup form -->
-	<div class="container-form-email-signup" id="signup" >
-
-		<h3>Join our email list</h3>
-        <p>Keep me up-to-date with your latest healthy smoothie recipes and special offers.</p>
-
-        <!-- Forn begins here -->
-		<form id="email-signup-form" name="email-signup-form" accept-charset="utf-8"  method="post" action="https://formspree.io/ibat.training@gmail.com">
-			<div class="flex-row">
-				<label for="email-address">Email:</label>
-                <input type="text" id="email-address" name="email-address" placeholder="Your email address" maxlength="80" autocapitalize="none" required>
-                <input type="hidden" name="_subject" id="email-subject" value="Email Signup Form Submission">
-				<button id="btn-submit" type="submit" class="btn-submit">Subscribe <i class="fas fa-envelope"></i></button>
-			</div>
-		</form>
-        <!-- Form ends here -->
+        </form>
+        <!-- Contact form ends here -->
 
     </div>
-	<!-- End container for email signup form -->
+    <!-- End container for contact form -->
+
 
     <!-- Begin HTML footer -->
     
@@ -219,9 +161,9 @@
         <h5>Excellence in digital creation</h5>
 
         <ul class="footer-links">
-            <li><a href="../../../index.html">Home</a></li>
-            <li><a href="../../index.html">Portfolio</a></li>
-            <li><a href="../../../contact/index.html">Contact</a></li>
+            <li><a href="../index-3.html">Home</a></li>
+            <li><a href="../portfolio/index-3.html">Portfolio</a></li>
+            <li><a href="index-3.html">Contact</a></li>
         </ul>
         
         <ul class="footer-icons">
@@ -257,10 +199,11 @@
             
          </ul>                
         
-        <a class="privacy-legal" href="privacy.html">Privacy & Legal</a>
+        <a class="privacy-legal" href="../privacy-3.html">Privacy & Legal</a>
     </div>
 	
 	<!-- End HTML footer -->
+
 
 	<!-- Begin JavaScript code for desktop and mobile menus -->
     <script>
@@ -312,8 +255,8 @@
             }
         }
 
-		// Code for menus with transparent background
-		//window.onscroll = function() {swapMenuStyle()};
+	// Code for menus with transparent background
+    window.onscroll = function() {swapMenuStyle()};
 		const headerDesktop = document.querySelector('.container-menu-desktop');
 		const headerMobile = document.querySelector('.container-menu-bar-mobile');
 
@@ -338,7 +281,8 @@
 	</script>
 	<!-- End JavaScript code for desktop and mobile menus -->
 
-	<!-- JavaScript for Cookie Consent Popup Message -->
+
+    <!-- JavaScript for Cookie Consent Popup Message -->
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 	<script>
 	window.cookieconsent.initialise({
@@ -354,7 +298,7 @@
 			"href": "https://ibat-web-dev.github.io/privacy.html"
 		}
 	});
-	</script>
-
+    </script>
+    
 </body>
 </html>
